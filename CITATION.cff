@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use OpenStorm US, please cite it as below."
+title: "OpenStorm US: an open benchmark and schema crosswalk of municipal stormwater infrastructure data"
+version: 1.0.0
+date-released: "2026-10-23"
+license: CC-BY-4.0
+doi: "10.5281/zenodo.23608127"
+repository-code: "https://github.com/elormgomli/openstorm-us"
+authors:
+  - family-names: "Gomli"
+    given-names: "Elorm Adjoa"
+    orcid: "https://orcid.org/0009-0004-8796-1214"
+    affiliation: "Independent Researcher, Arlington, TX, USA"
+keywords: [stormwater, storm sewer, GIS, asset management, open data, benchmark, data quality, MS4]

@@ -1,0 +1,16 @@
+# Build spec: OpenStorm US v1.0
+
+*What this file is: the one-page plan the whole build follows. The plain-language column says what each line means for you. If the project changes, this file changes first.*
+
+| Field | Spec | What it means for you |
+|---|---|---|
+| PROJECT | OpenStorm US. Archetypes: benchmark (4) on an open dataset (1), with a tool (2), an atlas/dashboard (3) and an annual report (5) | One build, five outputs, all from the same pipeline |
+| QUESTION | Which US cities and counties publish storm-sewer GIS data openly, and how complete, attribute-rich, connected and positionally sound is each dataset when measured against one common schema? | The one sentence the project answers |
+| SOURCES | ArcGIS Hub Search API v1 (hub.arcgis.com/api/search/v1); Socrata Discovery API (api.us.socrata.com/api/catalog/v1); each publisher's ArcGIS REST or Socrata endpoint; US Census Gazetteer 2024 places and counties. All accessed from October 2026 | All free and public; every download is logged in `data/raw/PROVENANCE.txt` |
+| UNIT | Publisher = one US Census place or county (key: `geoid`, P+7 digits for places, C+5 for counties). Utilities and districts kept as a separate group | Each row in the ranking is one city or county |
+| MEASURES | Completeness: 0.5 x share of the 5 layer types published + 0.5 x share of features with geometry and an asset ID. Attribute coverage: feature-weighted share of valid values for the key attributes (material, diameter, install year, condition, last inspection date). Connectivity: share of pipe endpoints within 1.0 m of a node or another pipe end; not scored if no pipes. Positional: share of features with geometry, not at (0,0), within 50 km of the network median, not a duplicate point (0.1 m), pipes over 0.1 m long. Overall: equal-weight mean of the scored components | How each score is calculated. Every number here is a proposal for your ruling |
+| OUTPUTS | `data/processed/publishers.csv` (census); `scores_reviewed.csv` (benchmark); `crosswalk/*.csv` and `crosswalk_draft.csv` (crosswalk); `openstorm_qa/schema/openstorm_v1.json` (schema); `CODEBOOK.md`; `qa_report.txt`; `report/stats.json` | The files that become the Zenodo dataset |
+| VENUES | v1.0: GitHub + Zenodo DOI (Dec 2026). Dashboard: GitHub Pages (Feb 2027). openstorm-qa: PyPI (Mar 2027). v1.1: Zenodo new version (Jun 2027). 2027 report: Zenodo + data-descriptor paper | Where each piece goes, in order |
+| VERIFY POINTS | (1) every schema field; (2) scoring weights and tolerances; (3) publisher census review list; (4) v1.0 selection of 50; (5) every crosswalk row for the 50 (ACCEPT/CHANGE/REJECT); (6) value maps for material, condition, status; (7) source-terms decision; (8) spot checks | Where your judgment is required. Nothing ships until each is done |
+| LICENSE | Code MIT. Schema, crosswalk, scores, documents CC BY 4.0. Harmonized source features: only where each publisher's terms allow redistribution | Standard open licenses; see `docs/SOURCE_TERMS.md` |
+| ASSUMPTIONS | Suggested defaults accepted on 2026-10-12: author block as Independent Researcher; city and county governments in scope, utilities separate; v1.0 = full census + top 50 fully reviewed; schema drafted from Esri LGIM storm naming + the five key attributes | Answers you gave; change any time |

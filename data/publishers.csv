@@ -1,0 +1,809 @@
+geoid,census_name,state,publisher_class,publisher_names,n_items,catalogs
+P0203000,Anchorage municipality,AK,city,Municipality of Anchorage,3,hub
+C02090,Fairbanks North Star Borough,AK,county,Fairbanks North Star Borough,8,hub
+P0224230,Fairbanks city,AK,city,City of Fairbanks,11,hub
+P0233140,Homer city,AK,city,"City of Homer, AK.; Department of Public Works
+City of Homer; Public Works Department
+City of Homer, AK.",3,hub
+P0111416,Calera city,AL,city,City of Calera,1,hub
+P0120104,Decatur city,AL,unclassified,"Decatur, Alabama",1,hub
+P0126992,Foley city,AL,city,"City of Foley, AL",3,hub
+C01097,Mobile County,AL,county,Mobile County Commission; Mobile County EMA Blue Skies,2,hub
+P0150000,Mobile city,AL,city,"City of Mobile, Alabama",3,hub
+P0158848,Pelham city,AL,city,"City of Pelham, Alabama",1,hub
+P0162328,Prattville city,AL,city,City of Prattville,2,hub
+P0523290,Fayetteville city,AR,city,"City of Fayetteville, Arkansas",2,hub
+P0524550,Fort Smith city,AR,city,City of Fort Smith GIS,4,hub
+P0533190,Hope city,AR,city,City of Hope Arkansas,1,hub
+P0533400,Hot Springs city,AR,city,"City of Hot Springs, AR",10,hub
+P0541000,Little Rock city,AR,city,City of Little Rock,2,hub
+P0560410,Rogers city,AR,city,City of Rogers,2,hub
+P0407940,Buckeye city,AZ,unclassified,"Buckeye, Arizona",5,hub
+P0423620,Flagstaff city,AZ,city,City of Flagstaff ArcGIS Online,1,hub
+P0423760,Florence town,AZ,city,Town of Florence GIS,2,hub
+C04013,Maricopa County,AZ,county,Flood Control District of Maricopa County: https://www.maricopa.gov/5308/Flood-Control-District; Maricopa County Enterprise GIS,7,hub
+P0444410,Maricopa city,AZ,city,City of Maricopa Maps,1,hub
+C04017,Navajo County,AZ,county,Navajo County,1,hub
+P0454050,Peoria city,AZ,city,City of Peoria AZ,3,hub
+C04019,Pima County,AZ,county,Pima County Maps and Apps,1,hub
+P0457450,Prescott Valley town,AZ,city,Town of Prescott Valley Online Maps,3,hub
+P0466820,Sierra Vista city,AZ,city,City of Sierra Vista,3,hub
+P0477000,Tucson city,AZ,city,City of Tucson,49,hub
+C04025,Yavapai County,AZ,county,Yavapai County ArcGIS Organization,2,hub
+P0485540,Yuma city,AZ,city,"City of Yuma, Arizona",6,hub
+C06001,Alameda County,CA,county,"Alameda County Public Works (data circa 2006)
+City of Fremont Environmental Services
+Maria Javier 510-494-4579 mjavier@fremont.gov",1,hub
+P0600562,Alameda city,CA,city,City of Alameda,1,hub
+P0602042,Anderson city,CA,city,City of Anderson,3,hub
+P0603526,Bakersfield city,CA,city,City of Bakersfield,8,hub
+P0608786,Buena Park city,CA,city,City of Buena Park,4,hub
+P0610046,Camarillo city,CA,city,City of Camarillo,6,hub
+P0613392,Chula Vista city,CA,unclassified,Chula Vista GIS,12,hub
+P0616224,Corcoran city,CA,city,City of Corcoran,1,hub
+P0617610,Cupertino city,CA,city,City of Cupertino,12,hub
+P0619318,Dinuba city,CA,city,City of Dinuba,2,hub
+P0622020,Elk Grove city,CA,city,City of Elk Grove - Elkmap,5,hub
+P0622594,Emeryville city,CA,city,City of Emeryville,18,hub
+P0622678,Encinitas city,CA,city,City of Encinitas,3,socrata
+P0622804,Escondido city,CA,city,City of Escondido,2,hub
+P0623126,Exeter city,CA,city,City of Exeter,1,hub
+P0630014,Glendora city,CA,city,City of Glendora,2,hub
+P0630378,Goleta city,CA,city,City of Goleta; City of Goleta - Environmental Services,16,hub
+P0636770,Irvine city,CA,city,City of Irvine,2,hub
+P0640004,La Mesa city,CA,city,City of La Mesa GIS,2,hub
+P0639259,Laguna Woods city,CA,city,City of Laguna Woods,6,hub
+P0641152,Lemoore city,CA,city,City of Lemoore,2,hub
+P0643000,Long Beach city,CA,city,"City of Long Beach, CA",1,hub
+C06037,Los Angeles County,CA,county,"County of Los Angeles; Los Angeles County Metro; Los Angeles County Public Works, Mapping & GIS Services (mapping@dpw.lacounty.gov)",26,hub
+P0644000,Los Angeles city,CA,city,City of Los Angeles Hub,4,hub
+P0644112,Los Gatos town,CA,city,Town of Los Gatos,2,hub
+C06041,Marin County,CA,county,"County Local Stormwater Program, County of Marin Department of Public Works",1,hub
+P0645778,Marina city,CA,city,City of Marina,1,hub
+P0646870,Menlo Park city,CA,city,City of Menlo Park GIS,2,hub
+C06051,Mono County,CA,county,"Mono County & the Town of Mammoth Lakes, CA",3,hub
+P0648914,Monterey Park city,CA,city,City of Monterey Park; Monterey Park,2,hub
+C06055,Napa County,CA,county,Napa County GIS | ArcGIS Online,1,hub
+P0650258,Napa city,CA,city,City of Napa,1,hub
+P0653000,Oakland city,CA,city,City of Oakland GIS,5,hub
+P0653070,Oakley city,CA,city,City of Oakley,3,hub
+P0653322,Oceanside city,CA,city,City of Oceanside,2,hub
+P0655184,Palm Desert city,CA,city,"City of Palm Desert, CA",3,hub
+P0656700,Perris city,CA,city,City of Perris,23,hub
+P0657526,Placentia city,CA,city,City of Placentia,3,hub
+P0658520,Poway city,CA,city,City of Poway,7,hub
+P0659444,Rancho Cordova city,CA,city,City of Rancho Cordova,9,hub
+P0659514,Rancho Palos Verdes city,CA,city,City of Rancho Palos Verdes,1,hub
+P0659920,Redding city,CA,city,City of Redding GIS,7,hub
+P0662000,Riverside city,CA,city,"City of Riverside, CA",13,hub
+P0662938,Roseville city,CA,city,City of Roseville,10,hub
+P0664224,Salinas city,CA,city,City of Salinas - GIS Division,3,hub
+C06069,San Benito County,CA,county,San Benito County,10,hub
+C06071,San Bernardino County,CA,county,San Bernardino County Department of Public Works,2,hub
+C06075,San Francisco County,CA,county,City and County of San Francisco,3,hub
+P0667042,San Gabriel city,CA,city,City of San Gabriel,2,hub
+C06077,San Joaquin County,CA,county,"San Joaquin County, CA - GIS",3,hub
+P0668000,San Jose city,CA,city,City of San José,18,hub
+P0668028,San Juan Capistrano city,CA,city,City of San Juan Capistrano,1,hub
+C06079,San Luis Obispo County,CA,county,County of San Luis Obispo,1,hub
+P0668154,San Luis Obispo city,CA,city,City of San Luis Obispo GIS,2,hub
+C06081,San Mateo County,CA,county,County of San Mateo - Office of Sustainability; San Mateo County,7,hub; socrata
+P0668252,San Mateo city,CA,city,City of San Mateo,2,hub
+P0669000,Santa Ana city,CA,city, City of Santa Ana - GIS,3,hub
+C06083,Santa Barbara County,CA,county,County of Santa Barbara,2,hub
+P0669084,Santa Clara city,CA,city,City of Santa Clara Maps Online,1,hub
+C06087,Santa Cruz County,CA,county,Santa Cruz County DPW,1,hub
+P0669112,Santa Cruz city,CA,city,Santa Cruz City GIS,3,hub
+P0670000,Santa Monica city,CA,city,City of Santa Monica,3,hub
+P0670280,Saratoga city,CA,city,"City of Saratoga, California",1,hub
+P0671225,Shasta Lake city,CA,city,City of Shasta Lake,8,hub
+P0672016,Simi Valley city,CA,city,City of Simi Valley,1,hub
+C06097,Sonoma County,CA,county,Sonoma County Agricultural Preservation and Open Space District; The County of Sonoma,4,hub
+P0672646,Sonoma city,CA,city,City of Sonoma,1,hub
+P0673220,South Pasadena city,CA,city,City of South Pasadena,1,hub
+C06103,Tehama County,CA,county,Tehama County Transportation Commission Geospatial Data,1,hub
+P0678120,Temecula city,CA,city,City of Temecula,2,hub
+P0680588,Truckee town,CA,city,Town of Truckee,11,hub
+C06107,Tulare County,CA,county,Tulare County; Tulare County RMA Grants,2,hub
+P0681134,Ukiah city,CA,city,City of Ukiah,1,hub
+P0681554,Vacaville city,CA,city,"City of Vacaville, CA",1,hub
+C06111,Ventura County,CA,county,County of Ventura,2,hub
+P0682954,Visalia city,CA,city,City of Visalia,1,hub
+P0685446,Wildomar city,CA,city,City of Wildomar,6,hub
+P0687042,Yucaipa city,CA,city,City of Yucaipa,1,hub
+C08001,Adams County,CO,county,Adams County Colorado Government,1,hub
+P0803620,Aspen city,CO,city,City of Aspen GIS AGOL,2,hub
+P0804000,Aurora city,CO,city,"City of Aurora - Information Technology; City of Aurora, Colorado Maps",8,hub
+C08013,Boulder County,CO,county,Boulder County,10,hub
+P0812387,Castle Pines city,CO,city,"City of Castle Pines, CO",4,hub
+P0812815,Centennial city,CO,city,City of Centennial - ArcGIS Online,1,hub
+P0812900,Central city,CO,city,"Central City, Colorado",1,hub
+P0816000,Colorado Springs city,CO,city,City of Colorado Springs GIS,5,hub
+C08035,Douglas County,CO,county,"Douglas County, CO",5,hub
+C08041,El Paso County,CO,county,El Paso County - DPW GIS,8,hub
+P0824785,Englewood city,CO,city,City of Englewood,1,hub
+P0828360,Frederick town,CO,city,"Town of Frederick, CO Mapping Platform",1,hub
+P0830340,Glendale city,CO,city,City of Glendale,3,hub
+P0831660,Grand Junction city,CO,city,City of Grand Junction GIS,3,hub
+P0832155,Greeley city,CO,city,"City of Greeley Stormwater; City of Greeley, Colorado",4,hub
+P0840515,Kersey town,CO,city,Town of Kersey,1,hub
+C08065,Lake County,CO,county,"Lake County, Colorado GIS",1,hub
+C08069,Larimer County,CO,county,Larimer County,1,hub
+P0845255,Littleton city,CO,city,City of Littleton,2,hub
+P0851745,Montrose city,CO,city,City of Montrose,4,hub
+P0857630,Parker town,CO,city,"Town of Parker, Colorado",3,hub
+C08097,Pitkin County,CO,county,"Pitkin County, Colorado",2,hub
+P0862000,Pueblo city,CO,city,"City of Pueblo; City of Pueblo, Colorado. Bureau of Public Works. Stormwater Utility Division. (719) 553-2899. ",17,hub
+P0875640,Superior town,CO,city,Town of Superior,6,hub
+P0885485,Windsor town,CO,city,Town of Windsor,1,hub
+P0885705,Winter Park town,CO,unclassified,Winter Park Colorado,2,hub
+P0947515,Milford city (balance),CT,unclassified,Milford,2,hub
+P0955990,Norwalk city,CT,city,City of Norwalk CT,3,hub
+P0973000,Stamford city,CT,unclassified,Stamford GIS,1,hub
+P1072510,Townsend town,DE,unclassified,"Townsend, DE",2,hub
+C12005,Bay County,FL,county,Bay County GIS,2,hub
+C12009,Brevard County,FL,county,"Brevard County, Board of County Commissioners",5,hub
+C12011,Broward County,FL,county,             Broward County GIS,4,hub
+P1210275,Cape Coral city,FL,unclassified,Cape Coral GIS,3,hub
+C12015,Charlotte County,FL,county,"Charlotte County, Florida Board of County Commissioners",2,hub
+P1216525,Daytona Beach city,FL,city,City of Daytona Beach Online,6,hub
+P1216725,Deerfield Beach city,FL,city,City of Deerfield Beach,2,hub
+P1224000,Fort Lauderdale city,FL,city,City of Fort Lauderdale,1,hub
+P1225175,Gainesville city,FL,city,"City of Gainesville, FL",5,hub
+C12057,Hillsborough County,FL,county,Hillsborough County ArcGIS Online Community (AGOL),1,hub
+P1237375,Lady Lake town,FL,city,The Town of Lady Lake,1,hub
+C12069,Lake County,FL,county,Lake County Maps & Apps,1,hub
+P1239425,Largo city,FL,city,City of Largo,1,hub
+C12071,Lee County,FL,county,Lee County Florida GIS,7,hub
+C12073,Leon County,FL,county,Tallahassee - Leon County GIS; Tallahassee-Leon County GIS,47,hub
+C12081,Manatee County,FL,county,Manatee County Government; Manatee County Organization,12,hub
+P1243083,Marco Island city,FL,unclassified,"Marco Island, Florida",2,hub
+C12083,Marion County,FL,county,"Geographic Information Systems - Marion County, Florida",16,hub
+C12086,Miami-Dade County,FL,county,"Miami-Dade County; Miami-Dade County RER – Water Management Division; Miami-Dade County, Florida",8,hub
+C12089,Nassau County,FL,county,Nassau County Florida GIS,2,hub
+P1248625,New Smyrna Beach city,FL,city,City of New Smyrna Beach,1,hub
+P1249450,North Miami city,FL,city,City of North Miami - FL,1,hub
+P1249675,North Port city,FL,city,"City of North Port, Florida",2,hub
+P1250575,Oakland Park city,FL,city, City of Oakland Park,4,hub
+C12095,Orange County,FL,county,Orange County Government GIS,15,hub
+P1253575,Oviedo city,FL,city,City of Oviedo,1,hub
+C12099,Palm Beach County,FL,county,Palm Beach County GIS,1,hub
+P1254200,Palm Coast city,FL,city,"City of Palm Coast, Florida",2,hub
+P1254275,Palmetto Bay village,FL,city,Village of Palmetto Bay,1,hub
+P1254250,Palmetto city,FL,city,"City of Palmetto, Florida",1,hub
+P1254700,Panama City city,FL,city,City of Panama City GIS,1,hub
+C12101,Pasco County,FL,county,Pasco County BOCC,2,hub
+P1255750,Pembroke Park town,FL,city,Town of Pembroke Park,1,hub
+P1255775,Pembroke Pines city,FL,unclassified,Pembroke Pines,1,hub
+C12103,Pinellas County,FL,county,Pinellas County eGIS,3,hub
+P1258050,Pompano Beach city,FL,city,City of Pompano Beach,9,hub
+P1258715,Port St. Lucie city,FL,city,City of Port St. Lucie ArcGIS Online,7,hub
+C12113,Santa Rosa County,FL,county,"Santa Rosa County, Florida - GIS Data Portal; Santa Rosa County, Florida - GIS SERVICES AND APPS",2,hub
+C12115,Sarasota County,FL,county,    Sarasota County GIS,7,hub
+P1264175,Sarasota city,FL,city,"City of Sarasota, Florida",1,hub
+P1264825,Sebastian city,FL,city,The City of Sebastian,8,hub
+C12117,Seminole County,FL,county,Seminole County GIS,3,hub
+P1262500,St. Augustine city,FL,city,City of St. Augustine,2,hub
+C12109,St. Johns County,FL,county,St. Johns County Public Works,22,hub
+P1262800,St. Lucie Village town,FL,unclassified,St. Lucie GIS,3,hub
+P1263000,St. Petersburg city,FL,city,"City of St. Petersburg, Florida",2,hub
+P1271000,Tampa city,FL,city,City of Tampa,12,hub
+P1271900,Titusville city,FL,city,City of Titusville,4,hub
+P1272325,Treasure Island city,FL,city,City of Treasure Island,1,hub
+P1274150,Vero Beach city,FL,city,City of Vero Beach GIS Division,1,hub
+C12127,Volusia County,FL,county,County of Volusia,1,hub
+C12131,Walton County,FL,county,Walton County Geographical Information Systems (GIS),6,hub
+P1276600,West Palm Beach city,FL,city,City of West Palm Beach,2,hub
+P1278325,Winter Springs city,FL,city,City of Winter Springs,2,hub
+P1301052,Albany city,GA,city,"City of Albany, GA",8,hub
+P1301696,Alpharetta city,GA,city,The City of Alpharetta,2,hub
+P1304000,Atlanta city,GA,city,City of Atlanta - Department of Watershed Management,1,hub
+P1310944,Brookhaven city,GA,city,"City of Brookhaven, Georgia",1,hub
+P1312988,Canton city,GA,city,"City of Canton, GA",3,hub
+P1313492,Carrollton city,GA,city,"City of Carrollton, Georgia",6,hub
+P1315172,Chamblee city,GA,city,"City of Chamblee, Georgia",1,hub
+C13051,Chatham County,GA,county,"Chatham County Government - Chatham County, Georgia",9,hub
+C13059,Clarke County,GA,county,Athens-Clarke County,3,hub
+C13067,Cobb County,GA,county,"Cobb County, Georgia",2,hub
+P1319000,Columbus city,GA,unclassified,Columbus Consolidated Government,7,hub
+C13089,DeKalb County,GA,county,DeKalb County GIS,1,hub
+P1322052,Decatur city,GA,unclassified,"Maps of Decatur, GA",3,hub
+P1323536,Doraville city,GA,city,City of Doraville,22,hub
+P1324768,Dunwoody city,GA,unclassified,Dunwoody ArcGIS Online,3,hub
+P1325720,East Point city,GA,city,City of East Point,11,hub
+C13117,Forsyth County,GA,county,Forsyth County Government,1,hub
+P1342425,Johns Creek city,GA,city,"City of Johns Creek, GA",6,hub
+P1343192,Kennesaw city,GA,city,"City of Kennesaw, GIS",1,hub
+P1351670,Milton city,GA,city,City of Milton,14,hub
+C13219,Oconee County,GA,county,Oconee County GIS,1,hub
+P1359724,Peachtree City city,GA,city,Peachtree City GIS,3,hub
+P1359735,Peachtree Corners city,GA,city,City of Peachtree Corners,11,hub
+P1362524,Powder Springs city,GA,city,City of Powder Springs,1,hub
+C13247,Rockdale County,GA,county,Rockdale County,11,hub
+P1368516,Sandy Springs city,GA,city,City of Sandy Springs,9,hub
+P1372122,South Fulton city,GA,city,"City of South Fulton, GA",2,hub
+P1376224,Thomasville city,GA,city,City of Thomasville,3,hub
+P1377652,Tucker city,GA,city,"City of Tucker, GA",2,hub
+C15001,Hawaii County,HI,county,County of Hawaii GIS,2,hub
+C15003,Honolulu County,HI,county,"City & County of Honolulu GIS; City and County of Honolulu, Department of Planning and Permitting, Honolulu Land Information System (HoLIS)",8,hub
+C15007,Kauai County,HI,county,County of Kauai,1,hub
+C15009,Maui County,HI,county,Maui County,1,hub
+P1901855,Ames city,IA,city,"City of Ames, Iowa",2,hub
+P1912000,Cedar Rapids city,IA,city,City of Cedar Rapids,1,hub
+P1916230,Coralville city,IA,city,City of Coralville,1,hub
+P1921000,Des Moines city,IA,city,City of Des Moines,2,hub
+P1922395,Dubuque city,IA,city,"City of Dubuque, IA",4,hub
+P1950160,Mason City city,IA,city,"City of Mason City, Iowa ",1,hub
+C19155,Pottawattamie County,IA,county,Pottawattamie County GIS,1,hub
+C19163,Scott County,IA,county,Scott County Iowa,1,hub
+P1982425,Waterloo city,IA,city,"City of Waterloo, Iowa",6,hub
+C16001,Ada County,ID,county,Ada County Drainage District No. 3; Ada County Highway District,10,hub
+P1608830,Boise City city,ID,city,"City of Boise, Idaho",1,hub
+C16035,Clearwater County,ID,county,Clearwater County,2,hub
+P1646540,Lewiston city,ID,city,City of Lewiston,13,hub
+P1664090,Pocatello city,ID,city,City of Pocatello,5,hub
+P1672100,Sandpoint city,ID,city,"City of Sandpoint, Idaho ",1,hub
+P1682810,Twin Falls city,ID,city," CITY OF TWIN FALLS, ID",6,hub
+P1700685,Algonquin village,IL,city,Village of Algonquin,1,hub
+P1703610,Bannockburn village,IL,city,"Village of Bannockburn, IL",3,hub
+P1709980,Burr Ridge village,IL,city,Village of Burr Ridge,1,hub
+P1712385,Champaign city,IL,city,City of Champaign,1,hub
+P1718563,Danville city,IL,city,"City of Danville, Illinois",1,hub
+P1718823,Decatur city,IL,city,City of Decatur ,2,hub
+C17043,DuPage County,IL,county,DuPage County Illinois,7,hub
+P1724543,Eureka city,IL,city,"City of Eureka, Illinois",2,hub
+P1738570,Joliet city,IL,city,City of Joliet,3,hub
+C17089,Kane County,IL,county,Kane County Illinois - Maps,2,hub
+C17097,Lake County,IL,county,Lake County Illinois GIS,12,hub
+P1744407,Lombard village,IL,city,Village of Lombard,2,hub
+P1747397,Maryville village,IL,city,"Village of Maryville, Illinois",1,hub
+P1751622,Naperville city,IL,city,City of Naperville ,6,hub
+P1753559,North Chicago city,IL,city,City of North Chicago,4,hub
+P1755249,O'Fallon city,IL,city,"City of O'Fallon, Illinois",2,hub
+P1754820,Oak Lawn village,IL,city,Village of Oak Lawn,1,hub
+C17143,Peoria County,IL,county,County of Peoria,1,hub
+P1760352,Plano city,IL,city,City of Plano IL,1,hub
+P1765000,Rockford city,IL,unclassified,"Rockford, Illinois",2,hub
+P1780242,Western Springs village,IL,city,Village of Western Springs,2,hub
+P1810342,Carmel city,IN,city,City of Carmel,2,hub
+P1823278,Fishers city,IN,unclassified,"Fishers, Indiana",3,hub
+P1828386,Goshen city,IN,city,City of Goshen,2,hub
+P1829898,Greenwood city,IN,city,"City of Greenwood, IN",7,hub
+C18057,Hamilton County,IN,county,"Hamilton County Surveyor's Office; Hamilton County, Indiana",4,hub
+P1838358,Jeffersonville city,IN,city,City of Jeffersonville,2,hub
+C18089,Lake County,IN,county,Lake County Indiana GIS,1,hub
+C18097,Marion County,IN,county,City of Indianapolis and Marion County - IndyGIS,2,hub
+C18105,Monroe County,IN,county,Monroe County,9,hub
+P1851912,Munster town,IN,city,"Town of Munster, Indiana",1,hub
+P1860246,Plainfield town,IN,city,"Town of Plainfield, Indiana",1,hub
+P1861092,Portage city,IN,city,"City of Portage, Indiana GIS Portal",1,hub
+C18127,Porter County,IN,county,Porter County GIS,4,hub
+C18141,St. Joseph County,IN,county,St Joseph County,2,hub
+P1883528,Wheatfield town,IN,city,Town of Wheatfield GIS Portal,2,hub
+P2001800,Andover city,KS,city,"City of Andover, KS",4,hub
+P2021675,Eudora city,KS,city,City of Eudora,1,hub
+P2033625,Hutchinson city,KS,city,City of Hutchinson,4,hub
+P2036000,Kansas City city,KS,city,"City of Kansas City, MO",1,hub
+P2038900,Lawrence city,KS,city,"City of Lawrence, Kansas",8,hub
+P2039350,Lenexa city,KS,unclassified,"Lenexa, Kansas",2,hub
+P2043950,McPherson city,KS,city,"City of McPherson, Kansas",1,hub
+P2052575,Olathe city,KS,city,City of Olathe,1,hub
+P2053775,Overland Park city,KS,unclassified,Overland Park GIS Online Portal,1,hub
+C20149,Pottawatomie County,KS,county,"Pottawatomie County, Kansas",2,hub
+C20177,Shawnee County,KS,county,"Shawnee County, KS ",1,hub
+P2064500,Shawnee city,KS,city,City of Shawnee,1,hub
+P2071000,Topeka city,KS,city,City of Topeka,8,hub
+P2073250,Valley Center city,KS,unclassified,"Valley Center, KS",2,hub
+P2079000,Wichita city,KS,city,City of Wichita GIS,3,hub
+P2079950,Winfield city,KS,city,City of Winfield,1,hub
+C20209,Wyandotte County,KS,county,"Unified Government of Wyandotte County Kansas City, Ks",2,hub
+P2102368,Ashland city,KY,city,City of Ashland,1,hub
+P2108902,Bowling Green city,KY,city,"      City of Bowling Green, KY",9,hub
+C21093,Hardin County,KY,county,Hardin County Online GIS,1,hub
+C21111,Jefferson County,KY,county,Louisville/Jefferson County Information Consortium,3,hub
+C22033,East Baton Rouge Parish,LA,unclassified,East Baton Rouge GIS Map Portal,8,hub
+C22057,Lafourche Parish,LA,county,Lafourche Parish Government,1,hub
+C22063,Livingston Parish,LA,county,Livingston Parish Government,3,hub
+P2255000,New Orleans city,LA,city,City of New Orleans,1,hub
+C22089,St. Charles Parish,LA,county,St. Charles Parish GIS Department,1,hub
+C22117,Washington Parish,LA,county,Washington Parish Government,1,hub
+P2507740,Braintree Town city,MA,unclassified,Braintree GIS,4,hub
+P2511000,Cambridge city,MA,city,City of Cambridge,4,hub
+P2523875,Fitchburg city,MA,city,City of Fitchburg,8,hub
+P2537000,Lowell city,MA,city,City of Lowell,1,hub
+P2538715,Marlborough city,MA,city,"City of Marlborough, Geographic Information Systems",4,hub
+C25021,Norfolk County,MA,unclassified,data.norfolk.gov,2,socrata
+P2559105,Salem city,MA,city,"City of Salem, Massachusetts",5,hub
+P2569170,Taunton city,MA,city,City of Taunton ,1,hub
+P2582000,Worcester city,MA,city,"City of Worcester, MA",1,hub
+P2401600,Annapolis city,MD,city,City of Annapolis,8,hub
+C24003,Anne Arundel County,MD,county,"Anne Arundel County, MD",15,hub
+C24005,Baltimore County,MD,county,Baltimore County Government,8,hub
+P2404000,Baltimore city,MD,city,Baltimore City,1,hub
+P2405550,Bel Air town,MD,unclassified,"Bel Air, Maryland",5,hub
+P2408775,Bowie city,MD,city,City of Bowie GIS,1,hub
+P2412400,Cambridge city,MD,city,"City of Cambridge, MD-GIS",4,hub
+C24013,Carroll County,MD,county,"Carroll County, Maryland",2,hub
+C24021,Frederick County,MD,county,"Frederick County, MD",1,hub
+P2430325,Frederick city,MD,city,City of Frederick,1,hub
+P2431175,Gaithersburg city,MD,city,"City of Gaithersburg, Maryland",3,hub
+C24025,Harford County,MD,county,   Harford County Government; Harford County Government,3,hub
+P2437600,Havre de Grace city,MD,city,City of Havre de Grace,1,hub
+P2445900,Laurel city,MD,city,"City of Laurel, Maryland",1,hub
+C24031,Montgomery County,MD,county,"Montgomery County, MD; Montgomery Maps",34,hub; socrata
+P2458225,Ocean City town,MD,city,"Ocean City, MD",2,hub
+C24033,Prince George's County,MD,county,Prince George's County Office of Management and Budget,1,socrata
+P2467675,Rockville city,MD,city,"City of Rockville, MD",2,hub
+P2469925,Salisbury city,MD,city,"  City of Salisbury, MD; City of Salisbury, Department of Information Services: GIS Division",7,hub
+C24043,Washington County,MD,county,"Washington County, Maryland",3,hub
+P2303355,Bath city,ME,city,City of Bath Maine,1,hub
+P2304860,Biddeford city,ME,city,"The City of Biddeford, Maine",2,hub
+C23013,Knox County,ME,county,County of Knox,1,hub
+P2360545,Portland city,ME,city,"The City of Portland, Maine",4,hub
+P2365725,Sanford city,ME,city,City of Sanford Maine,2,hub
+P2371990,South Portland city,ME,unclassified,South Portland GIS,3,hub
+C23029,Washington County,ME,county,"NOAA, NCCOS, Biogeography Branch, Social Science Team, Risk Assessment Portfolio: ""Assessing Community Risk in Relation to Inland and Coastal Flood Hazard in Maine’s Washington County and Greater East",1,hub
+P2382105,Westbrook city,ME,city,"City of Westbrook, Maine",9,hub
+P2603000,Ann Arbor city,MI,city,City of Ann Arbor GIS (A2Spatial),2,hub
+C26017,Bay County,MI,county,Bay County GIS,1,hub
+P2607020,Belleville city,MI,city,"City of Belleville, MI",1,hub
+P2622000,Detroit city,MI,city,City of Detroit,6,hub
+P2627440,Farmington Hills city,MI,city,City of Farmington Hills,1,hub
+P2627880,Ferndale city,MI,city,City of Ferndale,1,hub
+P2634000,Grand Rapids city,MI,city,City of Grand Rapids,6,hub
+C26065,Ingham County,MI,county,  Ingham County Drain Office,2,hub
+C26091,Lenawee County,MI,county,Lenawee County,2,hub
+P2650560,Madison Heights city,MI,city,"City of Madison Heights, Michigan",3,hub
+P2651900,Marquette city,MI,city,City of Marquette,1,hub
+C26111,Midland County,MI,county,"COUNTY OF MIDLAND, MI",5,hub
+P2659440,Novi city,MI,city,"City of Novi, Michigan",1,hub
+C26125,Oakland County,MI,county,"Oakland County, Michigan",1,hub
+C26139,Ottawa County,MI,county,Ottawa County Geospatial Insights & Solutions,2,hub
+P2665440,Pontiac city,MI,city,"City of Pontiac, Michigan",1,hub
+C26143,Roscommon County,MI,county,County of Roscommon,1,hub
+C26145,Saginaw County,MI,county,Saginaw County,1,hub
+P2671140,Saline city,MI,city,City of Saline,1,hub
+C26163,Wayne County,MI,county,Wayne County,1,hub
+C27003,Anoka County,MN,county,Anoka County GIS and Surveyor's Office,1,hub
+C27007,Beltrami County,MN,county,Beltrami County/City of Bemidji,8,hub
+C27019,Carver County,MN,county,"Carver County, Minnesota",23,hub
+P2713114,Coon Rapids city,MN,city,City of Coon Rapids ,1,hub
+C27035,Crow Wing County,MN,county,Crow Wing County GIS Online,1,hub
+P2714842,Darwin city,MN,city,City of Darwin,1,hub
+C27043,Faribault County,MN,county,Faribault County,1,hub
+P2722814,Fridley city,MN,city,City of Fridley,1,hub
+P2724308,Golden Valley city,MN,city,"City of Golden Valley, MN",6,hub
+P2725118,Grand Rapids city,MN,city,"City of Grand Rapids, MN",1,hub
+P2743864,Moorhead city,MN,city,City of Moorhead,4,hub
+P2752594,Prior Lake city,MN,city,City of Prior Lake,7,hub
+C27123,Ramsey County,MN,county,Ramsey County,2,hub
+C27131,Rice County,MN,county,"Rice County, MN",1,hub
+P2754060,Rice Lake city,MN,city,"City of Rice Lake, MN",1,hub
+P2754880,Rochester city,MN,city,"City of Rochester, MN",1,hub
+C27139,Scott County,MN,county,Scott County Minnesota,1,hub
+P2759350,Shakopee city,MN,city,City of Shakopee,4,hub
+C27141,Sherburne County,MN,county,Sherburne County GIS,2,hub
+C27143,Sibley County,MN,county,Sibley County GIS,3,hub
+P2758000,St. Paul city,MN,unclassified,Saint Paul GIS,1,hub
+P2769700,West St. Paul city,MN,city,"City of West St. Paul, MN",1,hub
+P2906652,Blue Springs city,MO,city,The City of Blue Springs,1,hub
+P2907966,Branson city,MO,city,"City of Branson, MO   GIS Division",4,hub
+P2935000,Independence city,MO,city,City of Independence,1,hub
+P2937000,Jefferson City city,MO,city,City of Jefferson,1,hub
+P2937592,Joplin city,MO,city,City of Joplin,3,hub
+P2949196,Monett city,MO,city,City of Monett Missouri,1,hub
+P2955766,Ozark city,MO,city,City Of Ozark,1,hub
+P2956288,Parkville city,MO,city,City of Parkville,1,hub
+P2961238,Republic city,MO,city,"City of Republic, Missouri",1,hub
+P2970000,Springfield city,MO,city,"City of Springfield, Missouri",4,hub
+C29189,St. Louis County,MO,county,Saint Louis County GIS Service Center,1,hub
+P2965126,St. Peters city,MO,city,City of St Peters,2,hub
+P2971746,Sunset Hills city,MO,city,City of Sunset Hills,1,hub
+P2978442,Wentzville city,MO,city,City of Wentzville,1,hub
+P2862400,Richland city,MS,city,City of Richland,1,hub
+P3006550,Billings city,MT,city,City of Billings GIS Department,1,hub
+P3008950,Bozeman city,MT,city,"City of Bozeman, Montana",2,hub
+P3011397,Butte-Silver Bow (balance),MT,unclassified,Butte-Silver Bow,3,hub
+C30017,Custer County,MT,county,Custer County Montana GIS,1,hub
+P3040075,Kalispell city,MT,city,City of Kalispell,5,hub
+P3050200,Missoula city,MT,city,City of Missoula,6,hub
+C30067,Park County,MT,county,"Park County, Montana",4,hub
+C30111,Yellowstone County,MT,county,Yellowstone County  ,1,hub
+P3702140,Asheville city,NC,city,City of Asheville,4,hub
+P3706140,Black Mountain town,NC,city,Town of Black Mountain,3,hub
+P3710740,Cary town,NC,city,Town of Cary,5,hub
+P3711800,Chapel Hill town,NC,city,Town of Chapel Hill,3,hub
+P3712000,Charlotte city,NC,city,City of Charlotte,18,hub
+P3712860,Clayton town,NC,city,Town of Clayton NC,1,hub
+C37063,Durham County,NC,county,"City and County of Durham, NC (ArcGIS Online)",11,hub
+P3719000,Durham city,NC,city,City of Durham,1,hub
+P3722920,Fayetteville city,NC,city,City of Fayetteville,4,hub
+P3725300,Fuquay-Varina town,NC,city,Town of Fuquay-Varina,10,hub
+P3725480,Garner town,NC,city,"Town of Garner, NC",3,hub
+P3728000,Greensboro city,NC,city,City of Greensboro ArcGIS Online,5,hub
+P3730720,Hendersonville city,NC,city,The City of Hendersonville,6,hub
+P3731400,High Point city,NC,city,"City of High Point, North Carolina, USA",2,hub
+P3732260,Holly Springs town,NC,city,Town of Holly Springs,2,hub
+P3733560,Indian Trail town,NC,city,Town of Indian Trail,1,hub
+P3735920,Kinston city,NC,city,City of Kinston,13,hub
+P3736220,Kure Beach town,NC,unclassified,"Kure Beach, NC",1,hub
+C37109,Lincoln County,NC,county,"Lincoln County, NC",1,hub
+P3741420,Marion city,NC,city,City of Marion,1,hub
+C37119,Mecklenburg County,NC,county,Mecklenburg County GIS,5,hub
+P3744220,Mooresville town,NC,city,Town of Mooresville,1,hub
+P3744520,Morrisville town,NC,city,Town of Morrisville,6,hub
+P3746340,New Bern city,NC,city,City of New Bern GIS,9,hub
+C37129,New Hanover County,NC,county,"New Hanover County, NC",1,hub
+P3755000,Raleigh city,NC,city,City of Raleigh,13,hub
+P3757500,Rocky Mount city,NC,city,City of Rocky Mount NC,11,hub
+P3758860,Salisbury city,NC,city,"City of Salisbury, North Carolina GIS",1,hub
+P3764740,Statesville city,NC,city,City of Statesville,7,hub
+P3770540,Wake Forest town,NC,city,Town of Wake Forest,5,hub
+P3774440,Wilmington city,NC,city,City of Wilmington,4,hub
+P3775280,Woodfin town,NC,city,Town of Woodfin,1,hub
+P3807200,Bismarck city,ND,city,"City of Bismarck, ND",2,hub
+C38017,Cass County,ND,county,"Cass County, North Dakota",1,hub
+P3832060,Grand Forks city,ND,city,City of Grand Forks,7,hub
+P3853380,Minot city,ND,city,City of Minot,22,hub
+C38059,Morton County,ND,county,Morton County,1,hub
+P3856740,New Town city,ND,city,"New Town, North Dakota",1,hub
+C38101,Ward County,ND,county,Ward County,1,hub
+P3119595,Grand Island city,NE,city,City of Grand Island,2,hub
+C31121,Merrick County,NE,county,Merrick County Highway Department,1,hub
+P3137000,Omaha city,NE,city,City of Omaha; City of Omaha GIS,4,hub
+C31153,Sarpy County,NE,county,"Sarpy County, Nebraska",7,hub
+P3341300,Lebanon city,NH,city,City of Lebanon,1,hub
+P3365140,Rochester city,NH,city,"City of Rochester, NH",2,hub
+C34001,Atlantic County,NJ,county,Atlantic County Office of GIS,3,hub
+P3404750,Bellmawr borough,NJ,unclassified,Bellmawr,2,hub
+C34005,Burlington County,NJ,county,"County of Burlington, New Jersey",2,hub
+C34009,Cape May County,NJ,county,Cape May County GIS,3,hub
+P3412580,Chester borough,NJ,unclassified,Chester Township,1,hub
+P3432250,Hoboken city,NJ,city,City of Hoboken,4,hub
+C34017,Hudson County,NJ,county,Hudson County Interactive Mapping Initiative,2,hub
+C34021,Mercer County,NJ,county,"Mercer County, New Jersey",2,hub
+C34023,Middlesex County,NJ,county,"Middlesex County, NJ",1,hub
+P3446680,Millville city,NJ,city,City of Millville,1,hub
+C34027,Morris County,NJ,county,"Morris County GIS, New Jersey, USA",2,hub
+P3502000,Albuquerque city,NM,city,City of Albuquerque,2,hub
+C35001,Bernalillo County,NM,county,Bernalillo County AGOL; Bernalillo County GIS; GIS Technology Section/Bernalillo County Planning & Development Services,11,hub
+P3525800,Farmington city,NM,city,"City of Farmington, NM",3,hub
+P3539380,Las Cruces city,NM,city,"City of Las Cruces, New Mexico",1,hub
+P3563460,Rio Rancho city,NM,city,City of Rio Rancho,1,hub
+C35047,San Miguel County,NM,county,San Miguel County,1,hub
+P3570500,Santa Fe city,NM,city,City of Santa Fe,11,hub
+P3576200,Taos town,NM,city,Town of Taos,1,hub
+P3209700,Carson City,NV,city,"Carson City, Nevada",1,hub
+C32003,Clark County,NV,county,Clark County GIS Management Office,2,hub
+C32005,Douglas County,NV,county,Douglas County (NV) GIS,2,hub
+P3240000,Las Vegas city,NV,city,City of Las Vegas,1,hub
+C32019,Lyon County,NV,county,"Lyon County, NV",1,hub
+C32031,Washoe County,NV,county,Washoe County,4,hub
+C36001,Albany County,NY,county,Albany County NY GIS,1,hub
+C36007,Broome County,NY,county,Broome County GIS and Mapping Services,20,hub
+P3619213,Croton-on-Hudson village,NY,city,Village of Croton on Hudson,1,hub
+P3638077,Ithaca city,NY,city,City of Ithaca GIS Program,1,hub
+C36045,Jefferson County,NY,county,"US Census Bureau, Jefferson County Planning",1,hub
+P3641135,Lancaster village,NY,city,"Town of Lancaster, NY GIS",1,hub
+P3648890,Mount Kisco village,NY,city,Village/Town of Mount Kisco,1,hub
+C36059,Nassau County,NY,county,Nassau County,2,hub
+P3651055,Niagara Falls city,NY,city,City of Niagara Falls,6,hub
+C36109,Tompkins County,NY,county,Tompkins County Mapping Portal,1,hub
+C36111,Ulster County,NY,county,"Ulster County, NY",1,hub
+P3676540,Utica city,NY,city,"The City of Utica, NY",1,hub
+C36113,Warren County,NY,county,Warren County NY,1,hub
+C36119,Westchester County,NY,county,"Westchester County GIS; Westchester County GIS, Village of Tuckahoe",11,hub
+P3684000,Yonkers city,NY,city,City of Yonkers,3,hub
+P3903086,Aurora city,OH,city,"City of Aurora, Ohio",3,hub
+P3907972,Bowling Green city,OH,city,City of Bowling Green,2,hub
+P3913190,Centerville city,OH,city,City of Centerville,5,hub
+P3915070,Circleville city,OH,city,City of Circleville,1,hub
+C39023,Clark County,OH,county,Clark County,1,hub
+P3916014,Cleveland Heights city,OH,city,City of Cleveland Heights,1,hub
+C39027,Clinton County,OH,county,Clinton County Ohio GIS,2,hub
+C39035,Cuyahoga County,OH,county,Cuyahoga County Planning Commission,1,hub
+C39041,Delaware County,OH,county,"Delaware County, Ohio",1,hub
+P3922694,Dublin city,OH,city,"City of Dublin, Ohio",7,hub
+C39043,Erie County,OH,county,Erie County GIS Advisory Board,1,hub
+P3926166,Fairlawn city,OH,city,City of Fairlawn,2,hub
+C39049,Franklin County,OH,county,"Franklin County, Ohio",40,hub
+P3933012,Hamilton city,OH,city,"City of Hamilton, Ohio",1,hub
+C39075,Holmes County,OH,county,Holmes County GIS,2,hub
+P3941720,Lancaster city,OH,city,"City of Lancaster, Ohio GIS",12,hub
+P3948160,Marysville city,OH,city,"City of Marysville, Ohio",1,hub
+P3950918,Minster village,OH,city,Village of Minster,1,hub
+P3951310,Monroe city,OH,city,"City of Monroe, Ohio",2,hub
+P3956882,North Olmsted city,OH,city,City of North Olmsted,4,hub
+P3959234,Oxford city,OH,city,"City of Oxford, Ohio",2,hub
+C39129,Pickaway County,OH,county,Pickaway County GIS,2,hub
+P3971682,Shaker Heights city,OH,city,City of Shaker Heights Public Works,4,hub
+C39151,Stark County,OH,county,Stark County Ohio; Stark County Regional Planning Commission,8,hub
+C39153,Summit County,OH,county,County of Summit GIS,5,hub
+P3976876,Tipp City city,OH,city,"City of Tipp City, Ohio",2,hub
+P3977000,Toledo city,OH,city,City of Toledo,4,hub
+P3979002,Upper Arlington city,OH,city,"City of Upper Arlington, Ohio",2,hub
+P3983342,Westerville city,OH,city,City of Westerville,1,hub
+P4032750,Harrah city,OK,unclassified,Harrah,1,hub
+P4041850,Lawton city,OK,city,City of Lawton GIS Division,3,hub
+P4052500,Norman city,OK,city,City of Norman,33,hub
+C40109,Oklahoma County,OK,county,Oklahoma County,1,hub
+P4070300,Stillwater city,OK,city,"City Of Stillwater, OK",3,hub
+P4075000,Tulsa city,OK,city,"City of Tulsa; City of Tulsa GIS Services - 175 E 2nd St Tulsa OK 74103; City of Tulsa GIS Services - 175 E 2nd St, Tulsa OK 74103",6,hub
+P4105800,Bend city,OR,city,"City of Bend, Oregon",15,hub
+C41003,Benton County,OR,county,"Benton County, Oregon",5,hub
+P4108650,Brookings city,OR,city,City of Brookings,1,hub
+P4115250,Coos Bay city,OR,city,City of Coos Bay,1,hub
+P4115800,Corvallis city,OR,city,City of Corvallis; Corvallis Maps Online,17,hub
+C41017,Deschutes County,OR,county,Deschutes County,2,hub
+P4126050,Florence city,OR,city,City of Florence,2,hub
+P4130550,Grants Pass city,OR,city,City of Grants Pass (AGOL),2,hub
+P4134100,Hillsboro city,OR,city,"City of Hillsboro, Oregon",1,hub
+C41029,Jackson County,OR,county,Jackson County GIS,3,hub
+P4138500,Keizer city,OR,city,CITY OF KEIZER,2,hub
+C41035,Klamath County,OR,county,Klamath County GIS Department,4,hub
+C41039,Lane County,OR,county,Lane County GIS,8,hub
+P4141650,Lebanon city,OR,city,City of Lebanon Map,2,hub
+C41047,Marion County,OR,county,Marion County Oregon,14,hub
+P4147000,Medford city,OR,city,City of Medford,5,hub
+P4148650,Milwaukie city,OR,unclassified,Milwaukie Web Maps,5,hub
+C41051,Multnomah County,OR,county,"Lauren Woodruff, Multnomah County DCS, GIS Tech; Multnomah County DCS; Multnomah County Maps",8,hub
+P4150950,Myrtle Creek city,OR,unclassified,myrtle-creek,1,hub
+P4152100,Newberg city,OR,city,City of Newberg,2,hub
+P4155200,Oregon City city,OR,unclassified,Oregon ArcGIS Online,1,hub
+P4157150,Pendleton city,OR,unclassified,Pendleton,2,hub
+P4159000,Portland city,OR,city,"City of Portland, Oregon",8,hub
+P4161200,Redmond city,OR,city,"City of Redmond, Oregon",1,hub
+P4164900,Salem city,OR,city,"City of Salem, Oregon",24,hub
+P4165250,Sandy city,OR,city,City Of Sandy,1,hub
+P4169600,Springfield city,OR,city,City of Springfield Department of Public Works; City of Springfield Public Works,2,hub
+P4172500,Talent city,OR,city,City of Talent,1,hub
+P4173650,Tigard city,OR,city,"City of Tigard, Oregon",1,hub
+C42003,Allegheny County,PA,county,"Allegheny County Conservation District; Allegheny County Conservation District, Kalin Drennen, Resource Conservationist - GIS Manager; Allegheny County Conservation District, Resource Conservationist - GIS Manager, Kalin Drennen; County of Allegheny, PA",11,hub
+P4202000,Allentown city,PA,city,"City of Allentown; City of Allentown, PA",9,hub
+P4202184,Altoona city,PA,city,City of Altoona PA,1,hub
+C42011,Berks County,PA,county,County of Berks,1,hub
+C42017,Bucks County,PA,county,Bucks County,1,hub
+C42029,Chester County,PA,county,"ChescoMaps - Chester County, PA",4,hub
+C42043,Dauphin County,PA,county,"Dauphin County, PA",1,hub
+C42045,Delaware County,PA,county,Delaware County Planning Department,1,hub
+P4241216,Lancaster city,PA,city,City of Lancaster,2,hub
+C42077,Lehigh County,PA,county,County of Lehigh,1,hub
+P4244128,Lock Haven city,PA,city,City of Lock Haven,5,hub
+P4248360,Meadville city,PA,city,City of Meadville,1,hub
+P4250528,Monroeville municipality,PA,city,Municipality of Monroeville,7,hub
+C42091,Montgomery County,PA,county,"Montgomery County; Montgomery County, Pennsylvania; Montgomery Township",4,hub
+P4253736,New Kensington city,PA,city,"City of New Kensington, PA",2,hub
+P4256088,Oakmont borough,PA,unclassified,Oakmont,6,hub
+P4260000,Philadelphia city,PA,city,City of Philadelphia,12,hub
+P4261000,Pittsburgh city,PA,city,City of Pittsburgh,2,hub
+P4269000,Scranton city,PA,city,City of Scranton GIS,3,hub
+C42133,York County,PA,county,"York County, Pennsylvania",1,hub
+P4449960,Newport city,RI,city,"City of Newport, RI",2,hub
+P4459000,Providence city,RI,city,City of Providence,14,hub
+C45013,Beaufort County,SC,county,Beaufort County Mapping & Applications Online Org.; USDA Natural Resources Conservation Service (NRCS) National Cooperative Soil Survey; Town of Bluffton GIS Open Data Portal; Beaufort County Stormwater Management Division; South Carolina Department of,4,hub
+P4504690,Beaufort city,SC,city,City of Beaufort,2,hub
+C45019,Charleston County,SC,county,Charleston County GIS,8,hub
+P4513330,Charleston city,SC,city,City of Charleston; City of Charleston GIS Division,3,hub
+C45029,Colleton County,SC,unclassified,Colleton GIS,1,hub
+P4516000,Columbia city,SC,city,City of Columbia GIS - South Carolina,2,hub
+C45031,Darlington County,SC,county,Darlington County; Darlington County Planning,2,hub
+C45041,Florence County,SC,county,Florence County GIS Department,1,hub
+C45045,Greenville County,SC,unclassified,Greenville GIS,1,hub
+P4530850,Greenville city,SC,unclassified,Greenville GIS,1,hub
+P4534045,Hilton Head Island town,SC,city,"Town of Hilton Head Island, SC",1,hub
+C45057,Lancaster County,SC,county,Lancaster County GIS,7,hub
+C45077,Pickens County,SC,county,"Pickens County, SC Gov - GIS Mapping Dept",1,hub
+P4570270,Summerville town,SC,city,"Town of Summerville, SC",9,hub
+C45091,York County,SC,county,"York County, SC - GIS Online",15,hub
+P4659020,Sioux Falls city,SD,city,City of Sioux Falls GIS,13,hub
+C47009,Blount County,TN,county,"Blount County GIS Group; Blount County, TN AGOL",4,hub
+P4714000,Chattanooga city,TN,city,City of Chattanooga,2,hub
+P4715160,Clarksville city,TN,city,City of Clarksville,1,hub
+P4716420,Collierville town,TN,city,"Town of Collierville, Tennessee",1,hub
+P4719700,Dayton city,TN,city,City of Dayton TN,1,hub
+P4727740,Franklin city,TN,city,"City of Franklin, TN",1,hub
+P4728960,Germantown city,TN,city,"City of Germantown, Tennessee",11,hub
+P4729920,Goodlettsville city,TN,city,City of Goodlettsville,3,hub
+C47093,Knox County,TN,county,Knoxville-Knox County-KUB GIS,2,hub
+P4753460,Nolensville town,TN,city,Town of Nolensville,5,hub
+C47149,Rutherford County,TN,county,Rutherford County GIS,1,hub
+C47155,Sevier County,TN,county,Sevier County GIS,1,hub
+P4767760,Shelbyville city,TN,city,"City of Shelbyville, Tennessee",1,hub
+P4770580,Spring Hill city,TN,city,City of Spring Hill,1,hub
+P4801000,Abilene city,TX,city,"City of Abilene, TX",1,hub
+P4801240,Addison town,TX,city,Town of Addison,5,hub
+P4801924,Allen city,TX,city,City of Allen ArcGIS Online (AGOL),5,hub
+P4804000,Arlington city,TX,city,"City of Arlington, TX",3,hub
+C48015,Austin County,TX,county,   Austin County Emergency Communications District; Austin GIS,4,hub
+P4805000,Austin city,TX,city,"City of Austin; City of Austin, Texas - data.austintexas.gov; City of Austin, Texas – data.austintexas.gov; City of Austin, Watershed Protection Department",53,hub; socrata
+P4805864,Bastrop city,TX,city,City of Bastrop,2,hub
+P4806128,Baytown city,TX,city,City of Baytown Tx,1,hub
+P4810912,Bryan city,TX,city,City of Bryan Geographic Information Services,2,hub
+P4811080,Buda city,TX,city,City of Buda,1,hub
+P4813024,Carrollton city,TX,city,City of Carrollton,3,hub
+P4813552,Cedar Park city,TX,city,City of Cedar Park,1,hub
+P4815988,Colleyville city,TX,city,City of Colleyville,1,hub
+P4819000,Dallas city,TX,city,City of Dallas GIS Services,5,hub
+P4820092,DeSoto city,TX,city,City of DeSoto,5,hub
+C48121,Denton County,TX,county,Denton County GIS,1,hub
+P4821628,Duncanville city,TX,city,City of Duncanville,6,hub
+P4822528,Edcouch city,TX,city,City of Edcouch,1,hub
+P4825168,Fair Oaks Ranch city,TX,city,"City of Fair Oaks Ranch, Tx",3,hub
+P4826232,Flower Mound town,TX,city,Town of Flower Mound GIS,6,hub
+P4827000,Fort Worth city,TX,city,City of Fort Worth,2,hub
+P4827648,Friendswood city,TX,city,City of Friendswood - GIS,1,hub
+P4830464,Grand Prairie city,TX,city,"City Of Grand Prairie, Texas",1,hub
+C48201,Harris County,TX,county,Harris County Online Repository; Harris County Toll Road Authority,7,hub
+C48209,Hays County,TX,county,Hays County Development Services,1,hub
+P4835000,Houston city,TX,unclassified,Houston Public Works Department - AGO,20,hub
+P4835624,Hutto city,TX,city,City of Hutto,8,hub
+P4838632,Keller city,TX,city,City of Keller,2,hub
+P4839124,Kilgore city,TX,city,City of Kilgore,6,hub
+P4839952,Kyle city,TX,city,City of Kyle,1,hub
+P4841440,La Porte city,TX,city,"City of La Porte, Texas GIS",1,hub
+P4840984,Lakeway city,TX,unclassified,Lakeway,3,hub
+P4842508,Lewisville city,TX,city,"City of Lewisville, Texas",9,hub
+P4843888,Longview city,TX,city,"City of Longview, Texas",5,hub
+P4847337,Meadows Place city,TX,city,"City of Meadows Place, Texas",1,hub
+P4848072,Midland city,TX,city,City of Midland-GIS ,6,hub
+C48339,Montgomery County,TX,county,"Montgomery County, Texas IT-GIS; Southern Montgomery County MUD",3,hub
+P4850256,Nacogdoches city,TX,city,City of Nacogdoches,1,hub
+P4856348,Pearland city,TX,city,City of Pearland,2,hub
+P4857176,Pflugerville city,TX,city,City of Pflugerville GIS,10,hub
+P4857200,Pharr city,TX,city,CITY OF PHARR - GIS,5,hub
+P4861796,Richardson city,TX,city,"City of Richardson, Texas",3,hub
+P4863500,Round Rock city,TX,city,City of Round Rock,44,hub
+P4865000,San Antonio city,TX,city,"City of San Antonio, Transportation & Capital Improvements Department",1,hub
+P4865600,San Marcos city,TX,city,City of San Marcos,3,hub
+P4867496,Sherman city,TX,city,"City of Sherman, Texas",8,hub
+P4874144,Tyler city,TX,city,City of Tyler,13,hub
+P4874408,Universal City city,TX,city,City of Universal City Web Mapping Portal,8,hub
+P4876000,Waco city,TX,city,City of Waco,9,hub
+C48491,Williamson County,TX,county,Williamson County,1,hub
+P4880356,Wylie city,TX,city,"City of Wylie, TX",2,hub
+C49005,Cache County,UT,county,"CACHE COUNTY, UTAH",2,hub
+P4920810,Eagle Mountain city,UT,city,Eagle Mountain City,2,hub
+P4931120,Grantsville city,UT,city,Grantsville City,1,hub
+P4936400,Hooper city,UT,city,Hooper City,6,hub
+P4950150,Millcreek city,UT,unclassified,Millcreek ,8,hub
+P4953230,Murray city,UT,city,"Murray City, Utah",1,hub
+P4962360,Providence city,UT,city,Providence City,1,hub
+P4967000,Salt Lake City city,UT,city,Salt Lake City,2,hub
+C49035,Salt Lake County,UT,county,Salt Lake County,7,hub
+P4970850,South Jordan city,UT,city,South Jordan City,2,hub
+P4965330,St. George city,UT,city,City of St. George,4,hub
+P4975360,Taylorsville city,UT,city,City of Taylorsville,2,hub
+P4981960,Washington city,UT,unclassified,Washington GIS,1,hub
+P4982950,West Jordan city,UT,unclassified,West Jordan,2,hub
+P4983390,West Point city,UT,city,West Point City,4,hub
+P4983470,West Valley City city,UT,city,"West Valley City, Utah",3,hub
+C51003,Albemarle County,VA,county,"Albemarle County, VA",3,hub
+P5101000,Alexandria city,VA,city,City of Alexandria GIS,13,hub
+C51013,Arlington County,VA,county,"Arlington County, VA - GIS Mapping Center",4,hub
+P5114968,Charlottesville city,VA,city,City of Charlottesville,5,hub
+P5116000,Chesapeake city,VA,city,"City of Chesapeake, Public Works; City of Chesapeake, VA",8,hub
+C51041,Chesterfield County,VA,county,"Chesterfield County, VA, Information Systems Technology, GIS, Email: CCArcGIS@chesterfield.gov, Phone: (804) 748-1503; Chesterfield, GIS, VA",2,hub
+P5118400,Colonial Beach town,VA,city,Town of Colonial Beach,1,hub
+C51059,Fairfax County,VA,county,County of Fairfax,11,hub
+P5126496,Fairfax city,VA,city,"City of Fairfax, Virginia",4,hub
+P5127200,Falls Church city,VA,city,City of Falls Church - Maps; City of Falls Church GIS,8,hub
+C51061,Fauquier County,VA,county,FAUQUIER COUNTY MAPS,8,hub
+C51079,Greene County,VA,county,County of Greene,1,hub
+P5135000,Hampton city,VA,city,"City of Hampton, VA",1,hub
+P5135624,Harrisonburg city,VA,city,City of Harrisonburg,4,hub
+C51095,James City County,VA,county,"James City County, VA",11,hub
+C51099,King George County,VA,county,King George County,9,hub
+P5144984,Leesburg town,VA,city,"Town of Leesburg, Virginia",3,hub
+C51107,Loudoun County,VA,county,Loudoun County GIS; Loudoun GIS,11,hub
+P5147672,Lynchburg city,VA,city,City of Lynchburg,6,hub
+P5148952,Manassas city,VA,city,City of Manassas GIS,10,hub
+C51121,Montgomery County,VA,unclassified,"AGOL Montgomery Co, VA GIS Services",3,hub
+P5156000,Newport News city,VA,city,City of Newport News,7,hub
+C51153,Prince William County,VA,county,"Maintained by the Town of Dumfries. Source data: Prince William County GIS.; Prince William County Department of Information Technology, GIS Division; Prince William County Department of Public Works, Environmental Services Division; Prince William County Public Works Department, Environmental Services Division",4,hub
+P5167000,Richmond city,VA,city,"City of Richmond, VA",3,hub
+C51161,Roanoke County,VA,county,County of Roanoke,7,hub
+P5168000,Roanoke city,VA,city,"City of Roanoke, VA",24,hub
+C51179,Stafford County,VA,county,"Stafford County, Virginia",3,hub
+P5182000,Virginia Beach city,VA,city,City of Virginia Beach - Online Mapping,14,hub
+P5183136,Warrenton town,VA,city,Town of Warrenton,2,hub
+P5186720,Winchester city,VA,city,"City of Winchester, Virginia",2,hub
+P5010675,Burlington city,VT,city,City of Burlington,3,hub
+C50007,Chittenden County,VT,county,Chittenden County Regional Planning Commission,5,hub
+C50015,Lamoille County,VT,county,Lamoille County Planning Commission,1,hub
+P5046000,Montpelier city,VT,city,City of Montpelier,5,hub
+P5301990,Anacortes city,WA,unclassified,"Anacortes, Washington",8,hub
+P5302585,Arlington city,WA,city,"City of Arlington, WA",10,hub
+P5303180,Auburn city,WA,city,      City of Auburn; City of Auburn,6,hub
+P5303736,Bainbridge Island city,WA,city,City of Bainbridge Island,8,hub
+P5304475,Battle Ground city,WA,city,City of Battle Ground; City of Battle Ground - Public Works,16,hub
+P5305210,Bellevue city,WA,city,City of Bellevue,2,hub
+C53005,Benton County,WA,county,"Benton County, WA",2,hub
+P5308850,Burien city,WA,city,"City of Burien, WA",2,hub
+C53009,Clallam County,WA,county,Clallam County,1,hub
+P5314170,Colville city,WA,city,City of Colville Public Works,3,hub
+P5315290,Covington city,WA,city,"City of Covington, Washington",4,hub
+P5317635,Des Moines city,WA,city,"City of Des Moines, WA",1,hub
+C53017,Douglas County,WA,county,"GIS, Douglas County, WA",1,hub
+P5320155,East Wenatchee city,WA,city,City of East Wenatchee,2,hub
+P5320645,Edgewood city,WA,city,City of Edgewood,1,hub
+P5323515,Federal Way city,WA,city,City of Federal Way AGOL,4,hub
+C53029,Island County,WA,county,Island County GIS,2,hub
+C53031,Jefferson County,WA,county,"Jefferson County, Washington",1,hub
+P5335170,Kenmore city,WA,city,City of Kenmore,1,hub
+P5335275,Kennewick city,WA,city,City of Kennewick,6,hub
+C53033,King County,WA,county,"City of Enumclaw Public Works; King County GIS; King County Tax Assessor; King County; King County Dept of Natural Resources and Parks, Wastewater Treatment Division; King County Dept. of Natural Resources and Parks, Water and Lands Resources Division; King County GIS Center; King County King County Dept of Natural Resources and Parks, Wastewater Treatment Division; King County King County Dept of Natural Resources and Parks, Water and Lands Resource Division; King County Water and Land Resources Division / Stormwater Services Section",58,hub
+C53035,Kitsap County,WA,county,Kitsap County DCD; Kitsap County GIS; Kitsap County Stormwater Division,9,hub
+P5336745,Lacey city,WA,city,"City of Lacey, WA",7,hub
+P5337270,Lake Forest Park city,WA,city,City of Lake Forest Park,5,hub
+P5337900,Lake Stevens city,WA,city,City of Lake Stevens,7,hub
+P5338038,Lakewood city,WA,city,CITY OF LAKEWOOD,4,hub
+P5340840,Lynnwood city,WA,city,City of Lynnwood WA,1,hub
+P5345005,Mercer Island city,WA,city,City of Mercer Island GIS,3,hub
+P5345865,Mill Creek city,WA,city,"City of Mill Creek, Washington",4,hub
+P5347245,Moses Lake city,WA,city,City of Moses Lake,3,hub
+P5347735,Mukilteo city,WA,city, City of Mukilteo,6,hub
+P5348645,Newcastle city,WA,city,"City of Newcastle, WA",3,hub
+P5350360,Oak Harbor city,WA,city,City of Oak Harbor,5,hub
+P5353545,Pasco city,WA,city,City of Pasco,3,hub
+C53053,Pierce County,WA,county,"Pierce County, Washington",19,hub
+P5355855,Port Townsend city,WA,city,City of Port Townsend,17,hub
+P5356695,Puyallup city,WA,city,City of Puyallup,11,hub
+P5357745,Renton city,WA,city,"City of Renton, WA",1,hub
+C53055,San Juan County,WA,county,San Juan County; San Juan County GIS,5,hub
+P5362288,SeaTac city,WA,city,City of SeaTac,2,hub
+P5363000,Seattle city,WA,city,City of Seattle ArcGIS Online; City of Seattle GIS Program,24,hub
+P5363960,Shoreline city,WA,city,City of Shoreline,1,hub
+C53061,Snohomish County,WA,county,Snohomish County; Snohomish County Public Works Surface Water Management,12,hub
+P5365170,Snohomish city,WA,city,City of Snohomish,18,hub
+C53063,Spokane County,WA,county,"Spokane County, Washington",15,hub
+P5367000,Spokane city,WA,city,City of Spokane,6,hub
+P5368435,Sumner city,WA,city,City of Sumner,1,hub
+P5370000,Tacoma city,WA,city,City of Tacoma GIS,5,hub
+P5372905,Tumwater city,WA,city,City of Tumwater; City of Tumwater (WA),4,hub
+P5374060,Vancouver city,WA,unclassified,Vancouver Online Maps,4,hub
+P5375775,Walla Walla city,WA,city,"City of Walla Walla, Technology Services, GIS Department; City of Walla Walla, Technology Services, GIS Dept",3,hub
+P5376405,Washougal city,WA,city,City of Washougal,41,hub
+P5377105,Wenatchee city,WA,city,"City of Wenatchee, WA GIS Mapping",3,hub
+C53073,Whatcom County,WA,county,Whatcom County,1,hub
+C53077,Yakima County,WA,county,Yakima County GIS,10,hub
+P5502550,Arena village,WI,city,"Village of Arena, WI",1,hub
+P5504625,Baraboo city,WI,city,City of Baraboo,3,hub
+C55011,Buffalo County,WI,county,Buffalo County GIS,2,hub
+C55015,Calumet County,WI,unclassified,Calumet Maps,2,hub
+P5515725,Clintonville city,WI,city,City of Clintonville WI,2,hub
+P5517175,Cottage Grove village,WI,unclassified,Cottage Grove GIS,4,hub
+P5525950,Fitchburg city,WI,city,City of Fitchburg,7,hub
+P5526275,Fond du Lac city,WI,city,City of Fond du Lac,2,hub
+C55047,Green Lake County,WI,county,"Green Lake County, Wisconsin",1,hub
+P5533100,Hartland village,WI,city,Village of Hartland,2,hub
+C55053,Jackson County,WI,county,"Jackson County, WI",1,hub
+P5539225,Kenosha city,WI,city,City of Kenosha,5,hub
+C55061,Kewaunee County,WI,county,Kewaunee County,1,hub
+C55063,La Crosse County,WI,county,La Crosse County,1,hub
+P5548000,Madison city,WI,city,City of Madison Map Data,5,hub
+P5551000,Menomonee Falls village,WI,city,Village of Menomonee Falls,1,hub
+P5551250,Merrill city,WI,city,"City of Merrill, WI",1,hub
+C55079,Milwaukee County,WI,county,Milwaukee County GIS & Land Information,3,hub
+P5553250,Minong village,WI,city,"Village of Minong, Wisconsin",1,hub
+P5553675,Monona city,WI,city,City of Monona,1,hub
+P5560500,Oshkosh city,WI,city,"City of Oshkosh, Wisconsin",1,hub
+P5563525,Plover village,WI,city,Village of Plover GIS Online Mapping ,11,hub
+P5568175,Ripon city,WI,city,City of Ripon,2,hub
+C55105,Rock County,WI,county,Rock County Land Information Office,1,hub
+C55117,Sheboygan County,WI,county,Sheboygan County,1,hub
+P5573725,Shorewood village,WI,city,"Village of Shorewood, Wisconsin",1,hub
+P5575325,Sparta city,WI,unclassified,Sparta Wisconsin,1,hub
+P5577675,Stoughton city,WI,city,"City of Stoughton, Wisconsin",2,hub
+P5577925,Sturtevant village,WI,city,Village of Sturtevant Online GIS Portal,1,hub
+C55121,Trempealeau County,WI,county,Trempealeau County,3,hub
+C55125,Vilas County,WI,county,"Vilas County, Wisconsin",3,hub
+C55133,Waukesha County,WI,county,Waukesha County,16,hub
+P5584675,Wauwatosa city,WI,city,City of Wauwatosa,2,hub
+C55141,Wood County,WI,county,Wood County Land Information Office,1,hub
+P5452060,Martinsburg city,WV,city,City of Martinsburg Stormwater Management,8,hub
+P5460028,Oak Hill city,WV,city,City of Oak Hill GIS,5,hub
+C54081,Raleigh County,WV,county,Beckley/Raleigh County MetroGIS Committee,1,hub
+P5610685,Buffalo city,WY,city,City of Buffalo,4,hub
+P5625620,Evanston city,WY,city,City of Evanston WY,3,hub
+C56021,Laramie County,WY,county,Cheyenne and Laramie County GIS Cooperative,6,hub
+P5661435,Pine Bluffs town,WY,unclassified,"Pine Bluffs, Wyoming GIS",1,hub

@@ -1,0 +1,490 @@
+{
+  "_about": "OpenStorm US common schema v1.0.0 (content identical to the accepted 1.0.0-rc1; label changed at release, 2026-10-22). Field list, allowed values and scoring parameters accepted by the author as drafted, with outfalls added to material and diameter (2026-10-15). Field names follow Esri Local Government Information Model storm-water naming where one exists.",
+  "schema_version": "1.0.0",
+  "status": "ACCEPTED (author decisions of 2026-10-12 and 2026-10-15; see docs/DECISIONS.md)",
+  "layer_types": {
+    "inlet": {
+      "geometry": "Point",
+      "label": "Inlet / catch basin / curb inlet"
+    },
+    "manhole": {
+      "geometry": "Point",
+      "label": "Manhole / junction box / access structure"
+    },
+    "pipe": {
+      "geometry": "LineString",
+      "label": "Storm pipe / gravity main / culvert"
+    },
+    "outfall": {
+      "geometry": "Point",
+      "label": "Outfall / discharge point / headwall"
+    },
+    "detention_basin": {
+      "geometry": "Polygon",
+      "label": "Detention or retention basin / pond"
+    }
+  },
+  "fields": [
+    {
+      "name": "asset_id",
+      "type": "string",
+      "layers": [
+        "*"
+      ],
+      "required": true,
+      "key_attribute": false,
+      "definition": "The publisher's own unique ID for the feature.",
+      "lgim_hint": "FACILITYID",
+      "synonyms": [
+        "facilityid",
+        "facility_id",
+        "assetid",
+        "asset_id",
+        "asset_no",
+        "assetnum",
+        "gisid",
+        "gis_id",
+        "uniqueid",
+        "unique_id",
+        "structure_id",
+        "struct_id",
+        "pipe_id",
+        "mh_id",
+        "inlet_id",
+        "outfall_id",
+        "id_num"
+      ]
+    },
+    {
+      "name": "material",
+      "type": "enum",
+      "layers": [
+        "pipe",
+        "manhole",
+        "inlet",
+        "outfall"
+      ],
+      "required": false,
+      "key_attribute": true,
+      "definition": "What the asset is made of, normalized to the allowed list.",
+      "lgim_hint": "MATERIAL",
+      "allowed": [
+        "RCP",
+        "CMP",
+        "PVC",
+        "HDPE",
+        "VCP",
+        "DIP",
+        "CIP",
+        "STEEL",
+        "CONCRETE_CIP",
+        "BRICK",
+        "MASONRY",
+        "CPP",
+        "OTHER"
+      ],
+      "synonyms": [
+        "material",
+        "matl",
+        "mat",
+        "pipe_mat",
+        "pipe_matl",
+        "pipematerial",
+        "pipe_material",
+        "materialcode",
+        "mat_type",
+        "construction",
+        "wallmaterial",
+        "structmat"
+      ]
+    },
+    {
+      "name": "diameter_in",
+      "type": "number",
+      "unit": "inch",
+      "layers": [
+        "pipe",
+        "outfall"
+      ],
+      "required": false,
+      "key_attribute": true,
+      "definition": "Inside diameter (or rise for non-round pipe) in inches. For outfalls: the diameter of the pipe that discharges at the outfall.",
+      "lgim_hint": "DIAMETER",
+      "valid_range": [
+        2,
+        240
+      ],
+      "synonyms": [
+        "diameter",
+        "diam",
+        "dia",
+        "pipe_dia",
+        "pipediam",
+        "pipe_size",
+        "pipesize",
+        "size",
+        "size_in",
+        "diameter_in",
+        "height",
+        "rise"
+      ]
+    },
+    {
+      "name": "install_year",
+      "type": "integer",
+      "layers": [
+        "*"
+      ],
+      "required": false,
+      "key_attribute": true,
+      "definition": "Year the asset was installed or accepted. Derived from a full date when only a date is published.",
+      "lgim_hint": "INSTALLDATE",
+      "valid_range": [
+        1850,
+        "CURRENT_YEAR"
+      ],
+      "synonyms": [
+        "installdate",
+        "install_date",
+        "installyear",
+        "install_yr",
+        "yearinstalled",
+        "year_built",
+        "yr_built",
+        "yearbuilt",
+        "constructed",
+        "const_year",
+        "date_installed",
+        "instdate",
+        "acceptdate",
+        "accept_date"
+      ]
+    },
+    {
+      "name": "condition",
+      "type": "enum",
+      "layers": [
+        "*"
+      ],
+      "required": false,
+      "key_attribute": true,
+      "definition": "Most recent overall condition, normalized to a 1 (excellent) to 5 (failed) scale. Source scales are mapped in the crosswalk.",
+      "allowed": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "synonyms": [
+        "condition",
+        "cond",
+        "conditionrating",
+        "condition_rating",
+        "cond_rating",
+        "condrate",
+        "rating",
+        "pacp_rating",
+        "structural_rating",
+        "struct_grade",
+        "overall_condition",
+        "status_cond"
+      ]
+    },
+    {
+      "name": "last_inspection_date",
+      "type": "date",
+      "layers": [
+        "*"
+      ],
+      "required": false,
+      "key_attribute": true,
+      "definition": "Date of the most recent recorded inspection (ISO 8601).",
+      "valid_range": [
+        "1950-01-01",
+        "TODAY"
+      ],
+      "synonyms": [
+        "inspdate",
+        "insp_date",
+        "inspectiondate",
+        "inspection_date",
+        "lastinspection",
+        "last_insp",
+        "lastinspdate",
+        "last_inspected",
+        "date_inspected",
+        "inspected"
+      ]
+    },
+    {
+      "name": "lifecycle_status",
+      "type": "enum",
+      "layers": [
+        "*"
+      ],
+      "required": false,
+      "key_attribute": false,
+      "definition": "Whether the asset is in service.",
+      "lgim_hint": "LIFECYCLESTATUS",
+      "allowed": [
+        "ACTIVE",
+        "ABANDONED",
+        "REMOVED",
+        "PROPOSED",
+        "UNKNOWN"
+      ],
+      "synonyms": [
+        "lifecyclestatus",
+        "lifecycle",
+        "status",
+        "activeflag",
+        "active",
+        "abandoned",
+        "inservice",
+        "in_service"
+      ]
+    },
+    {
+      "name": "owner",
+      "type": "string",
+      "layers": [
+        "*"
+      ],
+      "required": false,
+      "key_attribute": false,
+      "definition": "Who owns the asset (city, county, state DOT, private).",
+      "lgim_hint": "OWNEDBY",
+      "synonyms": [
+        "ownedby",
+        "owned_by",
+        "owner",
+        "ownership",
+        "own"
+      ]
+    },
+    {
+      "name": "custodian",
+      "type": "string",
+      "layers": [
+        "*"
+      ],
+      "required": false,
+      "key_attribute": false,
+      "definition": "Who maintains the asset, which can differ from the owner (e.g. a county pipe maintained by a city). Source fields such as Maintained By, MAINTBY, Managed By.",
+      "lgim_hint": "MAINTBY",
+      "synonyms": [
+        "maintby",
+        "maint_by",
+        "maintained_by",
+        "maintainedby",
+        "managedby",
+        "managed_by",
+        "custodian"
+      ]
+    },
+    {
+      "name": "us_invert_ft",
+      "type": "number",
+      "unit": "foot",
+      "layers": [
+        "pipe"
+      ],
+      "required": false,
+      "key_attribute": false,
+      "definition": "Upstream invert elevation.",
+      "lgim_hint": "UPELEV",
+      "synonyms": [
+        "upelev",
+        "up_elev",
+        "us_invert",
+        "usinvert",
+        "upinvert",
+        "up_invert",
+        "inv_up",
+        "start_inv",
+        "upstreaminv"
+      ]
+    },
+    {
+      "name": "ds_invert_ft",
+      "type": "number",
+      "unit": "foot",
+      "layers": [
+        "pipe"
+      ],
+      "required": false,
+      "key_attribute": false,
+      "definition": "Downstream invert elevation.",
+      "lgim_hint": "DOWNELEV",
+      "synonyms": [
+        "downelev",
+        "down_elev",
+        "ds_invert",
+        "dsinvert",
+        "downinvert",
+        "dn_invert",
+        "inv_dn",
+        "end_inv",
+        "downstreaminv"
+      ]
+    },
+    {
+      "name": "shape_type",
+      "type": "enum",
+      "layers": [
+        "pipe"
+      ],
+      "required": false,
+      "key_attribute": false,
+      "definition": "Cross-section shape.",
+      "allowed": [
+        "CIRCULAR",
+        "BOX",
+        "ARCH",
+        "ELLIPTICAL",
+        "OTHER"
+      ],
+      "synonyms": [
+        "shape",
+        "pipeshape",
+        "pipe_shape",
+        "xsection",
+        "crosssection",
+        "sectiontype"
+      ]
+    },
+    {
+      "name": "inlet_type",
+      "type": "string",
+      "layers": [
+        "inlet"
+      ],
+      "required": false,
+      "key_attribute": false,
+      "definition": "Inlet kind (curb, grate, combination, area drain).",
+      "synonyms": [
+        "inlettype",
+        "inlet_type",
+        "type",
+        "structtype",
+        "struct_type",
+        "subtype",
+        "featuretype"
+      ]
+    },
+    {
+      "name": "rim_elev_ft",
+      "type": "number",
+      "unit": "foot",
+      "layers": [
+        "manhole",
+        "inlet"
+      ],
+      "required": false,
+      "key_attribute": false,
+      "definition": "Rim or top elevation.",
+      "synonyms": [
+        "rimelev",
+        "rim_elev",
+        "rim",
+        "top_elev",
+        "topelev",
+        "groundelev"
+      ]
+    },
+    {
+      "name": "receiving_water",
+      "type": "string",
+      "layers": [
+        "outfall"
+      ],
+      "required": false,
+      "key_attribute": false,
+      "definition": "Name of the stream, lake or channel the outfall discharges to.",
+      "synonyms": [
+        "receivingwater",
+        "receiving_water",
+        "recv_water",
+        "stream",
+        "waterbody",
+        "receiving",
+        "discharge_to"
+      ]
+    },
+    {
+      "name": "basin_type",
+      "type": "enum",
+      "layers": [
+        "detention_basin"
+      ],
+      "required": false,
+      "key_attribute": false,
+      "definition": "Wet (holds a permanent pool) or dry.",
+      "allowed": [
+        "WET",
+        "DRY",
+        "UNDERGROUND",
+        "OTHER"
+      ],
+      "synonyms": [
+        "basintype",
+        "basin_type",
+        "pondtype",
+        "pond_type",
+        "type",
+        "facilitytype",
+        "bmp_type"
+      ]
+    }
+  ],
+  "missing_values": [
+    "",
+    " ",
+    "NULL",
+    "NONE",
+    "N/A",
+    "NA",
+    "UNK",
+    "UNKNOWN",
+    "UNKN",
+    "TBD",
+    "?",
+    "-",
+    "OTHER/UNKNOWN",
+    "<NULL>"
+  ],
+  "numeric_missing_sentinels": [
+    0,
+    -1,
+    -9,
+    -99,
+    -999,
+    -9999,
+    888,
+    999,
+    8888,
+    9999,
+    99999
+  ],
+  "scoring": {
+    "_decision": "Weights and tolerances are PROPOSED. Elorm rules on them.",
+    "weights": {
+      "completeness": 0.25,
+      "attribute_coverage": 0.25,
+      "connectivity": 0.25,
+      "positional": 0.25
+    },
+    "snap_tolerance_m": 1.0,
+    "duplicate_tolerance_m": 0.1,
+    "outlier_distance_km": 50.0
+  },
+  "_decisions": [
+    {
+      "date": "2026-10-15",
+      "by": "Elorm",
+      "decision": "Outfalls carry material and diameter (added 'outfall' to both fields)."
+    },
+    "2026-10-23 (Elorm): Maintained By maps to a new field, custodian, not owner."
+  ]
+}

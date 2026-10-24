@@ -1,0 +1,2 @@
+geoid,source_layer_id,source_field,min,max,n_values,elorm_rule
+P4863500,layers/P4863500/maps-roundrocktexas-gov-arcgis-rest-services-stormwater-storm-multi-mapserver-6.geojson.gz,CONDITION_CITYWORKS,-3.0,6.0,7,

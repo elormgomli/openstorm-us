@@ -1,0 +1,22 @@
+{
+  "_comment": "Author block. Every document, citation file, Zenodo record and commit reads from here. Filled and confirmed by the author before release (2026-10-21).",
+  "authors": [
+    {
+      "name": "Elorm Adjoa Gomli",
+      "family": "Gomli",
+      "given": "Elorm Adjoa",
+      "orcid": "0009-0004-8796-1214",
+      "email": "elormadjoag@gmail.com",
+      "affiliation": "Independent Researcher, Arlington, TX, USA",
+      "roles": [
+        "Conceptualization",
+        "Methodology",
+        "Data curation",
+        "Validation",
+        "Writing - original draft"
+      ],
+      "corresponding": true
+    }
+  ],
+  "collaborators": []
+}

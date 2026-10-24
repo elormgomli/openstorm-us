@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "openstorm-qa"  # name checked free on PyPI 2026-10-22; first upload planned March 2027
+version = "0.1.0.dev0"
+description = "Check municipal storm-sewer GIS layers against the OpenStorm US schema: completeness, attribute coverage, connectivity, positional QA."
+readme = "README.md"
+requires-python = ">=3.9"
+license = "MIT"
+dependencies = []
+keywords = ["stormwater", "GIS", "asset management", "data quality", "open data", "MS4"]
+
+[project.scripts]
+openstorm-qa = "openstorm_qa.cli:main"
+
+[tool.setuptools]
+packages = ["openstorm_qa"]
+
+[tool.setuptools.package-data]
+openstorm_qa = ["schema/*.json"]

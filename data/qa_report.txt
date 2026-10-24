@@ -1,0 +1,88 @@
+OpenStorm US QA report (reviewed), 2026-10-24
+============================================================
+
+Layer inventory (step 2):
+  not storm layer: 3928
+  kept: 3125
+  error: 141
+  empty: 48
+  layers where fewer features were saved than the service reports: 2
+    P4835000 Stormdrain Gravity Mains: 250000 of 299718
+    C17097 SMCStormSewerLines: 250000 of 264475
+  first errors (141 total):
+    C08013 https://amsagsprod1-bouldercounty.msappproxy.net/server/rest/services/PW/genCulverts/FeatureServer: service error 404: Service PW/genCulverts/MapServer not found  (https://amsagsprod1-bouldercounty.msappproxy.net/server/
+    C49035 https://apps.saltlakecounty.gov/slcogis/rest/services/Engineering/FloodControl/MapServer/33: service error 404: Layer not found (https://apps.saltlakecounty.gov/slcogis/rest/services/Engineering/FloodControl/MapSe
+    P5347245 https://arcgis.cityofml.com/server/rest/services/Stormwater/Stormwater_Network/FeatureServer: service error 499: Token Required (https://arcgis.cityofml.com/server/rest/services/Stormwater/Stormwater_Network/Featur
+    C51161 https://arcgis.roanokecountyva.gov/arcgisweb/rest/services/AGOL_OpenData/OpenData_Streets_Utilities/FeatureServer/47: service error 500: Service AGOL_OpenData/OpenData_Streets_Utilities/MapServer not started  (https://arcgis.roanokecounty
+    C51161 https://arcgis.roanokecountyva.gov/arcgisweb/rest/services/AGOL_OpenData/OpenData_Streets_Utilities/FeatureServer/48: service error 500: Service AGOL_OpenData/OpenData_Streets_Utilities/MapServer not started  (https://arcgis.roanokecounty
+    C51161 https://arcgis.roanokecountyva.gov/arcgisweb/rest/services/AGOL_OpenData/OpenData_Streets_Utilities/FeatureServer/49: service error 500: Service AGOL_OpenData/OpenData_Streets_Utilities/MapServer not started  (https://arcgis.roanokecounty
+    C51161 https://arcgis.roanokecountyva.gov/arcgisweb/rest/services/AGOL_OpenData/OpenData_Streets_Utilities/FeatureServer/50: service error 500: Service AGOL_OpenData/OpenData_Streets_Utilities/MapServer not started  (https://arcgis.roanokecounty
+    P5301990 https://arcgiscoa.cityofanacortes.org/arcgiscoa/rest/services/Storm/Storm_Culverts/FeatureServer/0: service error 503: Error handling service request :Wait timeout for the request exceeded. (https://arcgiscoa.cityofanaco
+    P5301990 https://arcgiscoa.cityofanacortes.org/arcgiscoa/rest/services/Storm/Storm_Outfalls/FeatureServer/0: service error 503: Error handling service request :Wait timeout for the request exceeded. (https://arcgiscoa.cityofanaco
+    P5301990 https://arcgiscoa.cityofanacortes.org/arcgiscoa/rest/services/Storm/Storm_Segments/FeatureServer/0: service error 503: Error handling service request :Wait timeout for the request exceeded. (https://arcgiscoa.cityofanaco
+    C26065 https://arcserver.spicergroup.com/arcgis/rest/services/County_Ingham_Drain_Office/ICDC_Maintenance/FeatureServer: GET failed after 4 tries: https://arcserver.spicergroup.com/arcgis/rest/services/County_Ingham_Drain_Office/ICDC_Mainten
+    C24005 https://bcgisdata.baltimorecountymd.gov/arcgis/rest/services/Environmental/ClimateActionPlan/MapServer/13: service error 404: Service Environmental/ClimateActionPlan/MapServer not found  (https://bcgisdata.baltimorecountymd.gov
+    C24005 https://bcgisdata.baltimorecountymd.gov/arcgis/rest/services/Environmental/ClimateActionPlan/MapServer/2: service error 404: Service Environmental/ClimateActionPlan/MapServer not found  (https://bcgisdata.baltimorecountymd.gov
+    C24005 https://bcgisdata.baltimorecountymd.gov/arcgis/rest/services/Environmental/ClimateActionPlan/MapServer/3: service error 404: Service Environmental/ClimateActionPlan/MapServer not found  (https://bcgisdata.baltimorecountymd.gov
+    C24005 https://bcgisdata.baltimorecountymd.gov/arcgis/rest/services/Environmental/ClimateActionPlan/MapServer/5: service error 404: Service Environmental/ClimateActionPlan/MapServer not found  (https://bcgisdata.baltimorecountymd.gov
+
+Stats:
+{
+  "mode": "reviewed",
+  "date": "2026-10-24",
+  "n_publishers_scored": 50,
+  "n_layers": {
+    "pipe": 156,
+    "inlet": 56,
+    "outfall": 41,
+    "manhole": 54,
+    "detention_basin": 33
+  },
+  "n_features": 1926458,
+  "publishers_without_crosswalk": [],
+  "by_class": {
+    "city": 45,
+    "county": 5
+  },
+  "n_states": 24,
+  "median_overall": 0.768,
+  "n_with_overall": 50,
+  "median_completeness": 0.8154,
+  "n_with_completeness": 50,
+  "median_attribute_coverage": 0.3458,
+  "n_with_attribute_coverage": 50,
+  "median_connectivity": 0.9224,
+  "n_with_connectivity": 50,
+  "median_positional": 0.9993,
+  "n_with_positional": 50,
+  "median_pipe_material": 0.9122,
+  "n_with_pipe_material": 50,
+  "median_pipe_diameter": 0.9083,
+  "n_with_pipe_diameter": 50,
+  "median_pipe_install_year": 0.29,
+  "n_with_pipe_install_year": 50,
+  "median_pipe_condition": 0.0,
+  "n_with_pipe_condition": 50,
+  "median_pipe_inspection": 0.0,
+  "n_with_pipe_inspection": 50,
+  "n_publishers_with_pipes": 50,
+  "n_pipe_publishers_any_condition": 16,
+  "n_pipe_publishers_any_inspection": 5,
+  "n_pipe_publishers_any_install_year": 39
+}
+
+Range checks (every score must be within 0 to 1):
+  out of range: none
+
+Spot checks for Elorm (compare to the publisher's portal by hand):
+  #1 Sioux Falls city, SD (P4659020): overall 0.829, pipes 37319, pipe material coverage 0.8658, connectivity 0.8789
+  #2 San Jose city, CA (P0668000): overall 0.8209, pipes 70857, pipe material coverage 0.9932, connectivity 0.9409
+  #3 Poway city, CA (P0658520): overall 0.8169, pipes 4109, pipe material coverage 0.9535, connectivity 0.918
+  #48 Pontiac city, MI (P2665440): overall 0.7062, pipes 13679, pipe material coverage 0.0, connectivity 0.9885
+  #49 King County, WA (C53033): overall 0.6692, pipes 123855, pipe material coverage 0.9202, connectivity 0.5153
+  #50 Charleston County, SC (C45019): overall 0.6596, pipes 213, pipe material coverage 0.9484, connectivity 0.6659
+  #18 Tyler city, TX (P4874144): overall 0.7785, pipes 17197, pipe material coverage 0.5601, connectivity 0.9795
+  #20 Addison town, TX (P4801240): overall 0.7754, pipes 3931, pipe material coverage 0.9969, connectivity 0.7416
+  #19 Rocky Mount city, NC (P3757500): overall 0.7781, pipes 19977, pipe material coverage 0.7515, connectivity 0.9434
+  #7 Kalispell city, MT (P3040075): overall 0.8029, pipes 404, pipe material coverage 1.0, connectivity 0.9381
+  #11 Waco city, TX (P4876000): overall 0.7917, pipes 18072, pipe material coverage 0.9845, connectivity 0.7734
